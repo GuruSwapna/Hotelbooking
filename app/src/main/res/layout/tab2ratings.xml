@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.enchanterswapna.hotelbooking.Holldetails$PlaceholderFragment">
+
+    <ProgressBar
+        android:id="@+id/circularProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="150dip"
+    android:layout_height="150dip"
+    android:indeterminate="false"
+    android:max="60"
+    android:progress="30"
+    android:progressDrawable="@drawable/ratingprog"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="progress"
+        android:layout_marginBottom="45dp"
+        android:layout_above="@+id/tx1"
+        android:layout_toEndOf="@+id/tx3"
+        android:layout_marginStart="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating Index"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_above="@+id/textview1"
+        android:layout_toEndOf="@+id/circularProgressBar"
+        android:layout_marginStart="52dp"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="based on 450 reviews"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/circularProgressBar"
+        android:id="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx1"
+        android:textStyle="bold"
+        android:layout_above="@+id/prog1"
+        android:layout_alignEnd="@+id/textview1"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx2"
+        android:layout_above="@+id/prog1"
+        android:layout_alignStart="@+id/textView4" />
+
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="60"
+        android:progress="30"
+        android:progressTint="#006400"
+        android:id="@+id/prog1"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/circularProgressBar"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx3"
+        android:textStyle="bold"
+        android:layout_alignBaseline="@+id/tx4"
+        android:layout_alignBottom="@+id/tx4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="19dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx4"
+        android:layout_alignBottom="@+id/prog2"
+        android:layout_toStartOf="@+id/tx2"
+        android:layout_marginBottom="25dp" />
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="60"
+        android:progress="40"
+        android:progressTint="#006400"
+        android:id="@+id/prog2"
+        android:layout_marginTop="62dp"
+        android:layout_below="@+id/prog1"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

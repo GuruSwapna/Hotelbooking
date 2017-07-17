@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.enchanterswapna.hotelbooking.Bookroom"
+    tools:showIn="@layout/activity_bookroom"
+    android:background="@drawable/hoteld"
+    >
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/honame"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/hoadd"
+        android:text="Address"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/honame"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edit1"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:hint="Number of persons"
+        android:layout_below="@+id/hoadd"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bookr"
+        android:text="book"
+        android:textColor="#000000"
+        android:layout_below="@+id/edit1"
+        android:layout_alignEnd="@+id/edit1"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="33dp" />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="111dp"
+        android:textSize="23sp"
+        android:textColor="#000000"
+        android:id="@+id/newsdisp"
+
+        android:layout_below="@+id/edit1"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

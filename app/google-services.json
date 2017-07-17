@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "16925097589",
+    "firebase_url": "https://hotelbooking-cae67.firebaseio.com",
+    "project_id": "hotelbooking-cae67",
+    "storage_bucket": "hotelbooking-cae67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16925097589:android:520a2dde4cd4cf3c",
+        "android_client_info": {
+          "package_name": "com.example.enchanterswapna.hotelbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16925097589-n4p4hmc9598i7e91jikmlfqbub6tsljv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.enchanterswapna.hotelbooking",
+            "certificate_hash": "96075a3c8db9e8dfff5ba49235661536aa00a041"
+          }
+        },
+        {
+          "client_id": "16925097589-2hjiaffdkacg8q1atttctc4vcr6trtub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFztCa9e-c9YFdXVIaZ9cb0CYiuaYny1Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16925097589-2hjiaffdkacg8q1atttctc4vcr6trtub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
